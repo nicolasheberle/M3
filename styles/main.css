@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+.page-header {
+    display: flex;
+    justify-content: center;
+    padding: 28px 0;
+    background: black;
+}
+
+.header-logo {
+    display: block;
+}
+.main-banner {
+    display: block;
+    width: 100%;
+}
+.top-infocard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 66px;
+}
+.bloco-1 {
+    text-align: center;
+    max-width: 776px;
+}
+
+.frase-01 {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.frase-02 {
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.frase-03 {
+    line-height: 24px;
+    font-size: 16px;
+    padding-bottom: 65px;
+    text-align: justify;
+}
+
+.top-infocard-image {
+    display: block;
+    padding-bottom: 90px;
+}
+.top-cards {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.top-card {
+    max-width: 350px;
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px 
+    rgba(0, 0, 0, 0.23);
+}
+.top-card-descripition {
+    padding-top: 30px;
+    max-width: 367px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.top-card-image {
+    display: block;
+    justify-content: center;
+    margin-bottom: 26px;
+    padding: 20px;
+}
+.top-imagens {
+    background: #e0e0e0;
+}
+.top-imagem {
+    display: flex;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: 60px;
+}
+.imagem-top-desktop {
+    display: block;
+    width: 100%;
+}
+.short-cards {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+    gap: 20px;
+    padding: 200px;
+}
+.short-card {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px 
+    rgba(0, 0, 0, 0.23);
+}
+.textos-medio {
+    text-align: center;
+    align-items: center;
+}
+.short-infocard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 18px 0 32px;
+}
+
+.short-infocard-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.short-infocard-title {
+    padding-top: 51px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.short-infocard-paragrafo{
+    line-height: 24px;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    width: 550px;
+    height: 158px ;
+
+}
+.short-infocard-tp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.short-infocard-image{
+    display: block;
+}
+.page-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0;
+    background: black;
+}
+.footer-paragrafo{
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.footer-paragrafo-m{
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.CNPJ-m{
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.footer-icons{
+    margin: 28px 0 16px;
+    display: flex;
+    list-style: none;
+
+}
+
+
+@media screen and (max-width: 412px) {
+    .imagem-top-desktop,
+    .main-banner-desktop,
+    .footer-paragrafo,
+    .imagem-top-desktop-solo,
+    .short-bunner {
+        display: none;
+    }
+    *{
+        max-width:412px;
+    }
+    .main-banner-mobile {
+        width: 412px;
+    }
+    .footer-paragrafo-m
+    .short-bunner-m 
+    .short-infocard-title{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .bloco-1 {
+        max-width: 327px;
+        max-height: 214px;
+    }
+    .frase-01 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .frase-02 {
+        font-weight: 500;
+        font-size: 28px;
+    }
+    .frase-03 {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    }
+    .top-imagem {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 412px;
+        top: 60px;
+        bottom: 80px;
+    }
+    .imagem-top-mobile{
+        display: block;
+
+    }
+    .top-infocard{
+        flex-direction: column;
+
+    }
+    .top-infocard-text{
+        margin-right: 0;
+    }
+    .top-infocard-subtitle{
+        font-size: 28px;
+    }
+    .top-cards{
+        grid-template-columns: 1fr;
+        padding: 36px 26px;
+    }
+    .col01 {
+        height: 484px;
+    }
+    .short-cards{
+    grid-template-columns: 1fr;
+    padding: 36px 26px;
+    padding-top: 202px;
+    }
+    .short-infocard-title {
+        width: 315px;
+        height: 20px;
+        font-size: 24px;
+        line-height: 20px;
+        line-height: 69%;
+
+    }
+    .short-infocard-paragrafo {
+        padding-bottom: 104px;
+        width: 350px;
+        height: 192px;
+        font-size: 16px;
+        line-height: 24px;
+        line-height: 124%;
+        justify-content: center;
+        }
+        .short-infocard-tp{
+            display: flex;
+            align-items: center;    
+            justify-content: center;
+        }
+    .facebook {
+        padding: 0px 10px 17px 16px;
+
+    }
+}
+@media screen and (min-width: 415px) {
+    .main-banner-mobile,
+    .imagem-top-mobile,
+    .footer-paragrafo-m,
+    .CNPJ-m,
+    .imagem-top-mobile-solo,
+    .short-bunner-m {
+        display: none;
+    }
+    .facebook{
+        margin: 0 16px 0 16px;
+    }
+    .short-infocard-title{
+        text-transform: uppercase;
+    }
+    .main-banner-desktop {
+        width: 100%;
+    }
+    .col01 {
+        height: 100%;
+    }
+    .top-imagem{
+        width: 1732px;
+        left: 94px;
+        gap: 32px;
+    }
+}
